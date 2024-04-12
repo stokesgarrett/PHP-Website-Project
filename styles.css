@@ -1,0 +1,439 @@
+.header
+      {
+        background-color: black;
+        padding: 1px;
+        width: 100%;
+        text-align: center;
+      }
+      .footer
+      {
+        background-color: black;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        clear: both;
+        height: 45px;
+      }
+      html, body {
+        min-height: 100%;
+    }
+      .box{
+        float:left;
+        
+    }
+    .clear{
+        clear:both;
+    }
+    html{
+      overflow-x: hidden;
+      }
+      h1
+      {
+      position: relative;
+      top: 17vh;
+      text-align: center;
+      font-size: 25px;
+      text-transform: initial;
+      color:violet;
+      }
+      h2
+      {
+      position: relative;
+      top:17vh;
+      font-size: 30px;
+      text-align: center;
+      text-transform: initial;
+      color:violet;
+      font-weight: bold;
+      }
+      h3
+      {
+      position: relative;
+      top: 17vh;
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      font-size: 20px;
+      text-transform: initial;
+      color: violet;
+      }
+      h4
+      {
+      position: relative;
+      top: 19vh;
+      font-size: 35px;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: initial;
+      color:violet;
+      font-weight: bold;
+      }
+      h5
+      {
+        width: 50%;
+      display: block;
+      font-size: 15px;
+      text-align: left;
+      text-transform: initial;
+      color: plum;
+      }
+      h6
+      {
+        width: 70%;
+      font-size: 15px;
+      text-transform: initial;
+      color: plum;
+      }
+    
+      ul
+{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center
+    
+
+}
+ /*this rule defines the li elements to be centered on screen*/
+li
+{
+  display: inline-block
+
+}
+/*this rule is to set the border in the navigation bar*/
+li:last-child
+{
+    border: none;
+}
+
+/*to display the hover color as blue and text color as white*/
+
+li a:hover 
+{
+    background-color: indigo;
+
+}
+/* sets spacing between tabs*/
+li a 
+{
+  display:block;
+  text-align: center;
+  padding: 12px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: auto;
+}
+li.right
+{
+  float:right;
+}
+a
+{
+  text-decoration: none;
+  color: violet;
+}
+ /*backgrn image*/
+ body {
+  text-transform: uppercase;
+  font-family: changa-one, sans-serif;
+  background-color: black;
+}
+
+/* next button */
+.learnmorebutton {
+  position: relative;
+  top: 22vh;
+  display: block;
+  width: 10%;
+  margin: 0 auto;
+  background-color: black;
+  color: blanchedalmond;
+  text-transform: initial;
+  font-size: 27px;
+  padding: 10px 20px;
+}
+.learnmorebutton:hover 
+{
+  background-color: indigo;
+}
+.nextp {
+  position: fixed;
+  width: 100px;
+  font-size: 25px;
+  background-color: black;
+  color: palevioletred;
+  text-transform: initial;
+
+}
+.round {
+  border-radius: 50%;
+}
+.fade-in3 {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+.fade-in6 {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+.fade-in9 {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+}
+.fade-in12 {
+  animation: fadeIn ease 12s;
+  -webkit-animation: fadeIn ease 12s;
+  -moz-animation: fadeIn ease 12s;
+  -o-animation: fadeIn ease 12s;
+  -ms-animation: fadeIn ease 12s;
+}
+.fade-in15 {
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
+  -moz-animation: fadeIn ease 15s;
+  -o-animation: fadeIn ease 15s;
+  -ms-animation: fadeIn ease 15s;
+}
+.fade-in18 {
+  animation: fadeIn ease 18s;
+  -webkit-animation: fadeIn ease 18s;
+  -moz-animation: fadeIn ease 18s;
+  -o-animation: fadeIn ease 18s;
+  -ms-animation: fadeIn ease 18s;
+}
+.fade-in21 {
+  animation: fadeIn ease 21s;
+  -webkit-animation: fadeIn ease 21s;
+  -moz-animation: fadeIn ease 21s;
+  -o-animation: fadeIn ease 21s;
+  -ms-animation: fadeIn ease 21s;
+}
+.fade-in24 {
+  animation: fadeIn ease 24s;
+  -webkit-animation: fadeIn ease 24s;
+  -moz-animation: fadeIn ease 24s;
+  -o-animation: fadeIn ease 24s;
+  -ms-animation: fadeIn ease 24s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%; /* Adjust the vertical position */
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the container */
+            text-align: center;
+}
+form {
+  text-align: center;
+  text-transform: lowercase;
+}
+label {
+  color: violet; /* Color labels white */
+  display: block; /* Place each label on a new line */
+  margin-bottom: 10px; /* Add spacing between labels */
+}
+
+.torch {
+  width: 100px;
+  height: 200px;
+  background-image: url('torch.png'); /* Replace 'torch.png' with your torch image */
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: torchAnimation 2s infinite alternate; /* Add torch animation */
+  opacity: 0; /* Initially hidden */
+}
+
+@keyframes torchAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Style for the game container */
+.game-container {
+  position: relative;
+  top: 10vh; /* Adjust the top value as needed for vertical positioning */
+}
+
+/* Style for the options */
+.horizontal-options {
+  position: relative;
+  top: 10vh; /* Adjust the top value as needed for vertical positioning */
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Style for each option */
+.horizontal-options label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  user-select: none; /* Disable text selection */
+}
+
+/* Style for the option images */
+.horizontal-options img {
+  width: 50px; /* Adjust the width and height as needed to make all images the same size */
+  height: 50px;
+  border: 2px solid transparent;
+  cursor: pointer; /* Change cursor only when hovering over the image */
+}
+
+/* Style for the option text */
+.horizontal-options p {
+  margin: 10px 0;
+  cursor: pointer; /* Change cursor only when hovering over the text */
+}
+
+/* Style for the selected option */
+.horizontal-options input:checked + label {
+  border: 2px solid #ff0000; /* Add a border for selected option */
+}
+/* Style for the submit button */
+#submit-button {
+  margin-top: 80px; /* Add margin to push down the submit button */
+  cursor: pointer; /* Change cursor on hover */
+}
+/* Style for the "Choose Your Option" text */
+
+
+
+/* Add this class to fade out the game container */
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+/* Define the fade-out animation */
+@keyframes fadeOut {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+/* Style for the "You survived!" text */
+.success-text {
+  text-align: center;
+  font-size: 24px;
+  color: green;
+  padding: 20px;
+}
+.explanation-text {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+  padding: 20px;
+}
+ 
+/* Center the home button both horizontally and vertically */
+.button-center {
+  display: block;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-center:hover {
+  background-color: grey;
+}
+
+.Survived-Michael-Myers {
+    color: green !important;
+    position: relative !important;
+    top: 17vh !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    text-transform: initial !important;
+}
+
+.Killed-By-Michael-Myers {
+    color: red !important;
+    position: relative !important;
+    top: 17vh !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    text-transform: initial !important;
+}
+
+.centered-button {
+			display: block;
+			margin: auto;
+            text-align: center;
+            margin-top: 200px;
+			
+        }

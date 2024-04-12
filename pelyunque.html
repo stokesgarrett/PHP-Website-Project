@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='styles.css'>
+    <title>El Yunque National Forest</title>
+    <script src="pelyunqueactionchoice.js"></script>
+  </head>
+  <body>
+    <ul style="position: fixed; left: 0px; top: 0px;"></ul>
+    <div class="fade-in3">
+      <h2>In the heart of El Yunque, where the dense foliage conceals secrets older than time, your group of adventurers embarked on a journey through the enigmatic forest.
+        As you delved deeper into the lush wilderness, the air grew heavy with the legends of the Chupacabra—a beast rumored to haunt these very woods.
+      </h2>
+    </div>
+    <div class="fade-in15">
+      <h1>The sun cast long shadows over the emerald canopy when the eerie silence was shattered by a blood-curdling howl. Rustling leaves and snapping twigs signaled the
+        arrival of the Chupacabra, its malevolent presence palpable. With a mix of fear and fascination, your group locked eyes with the creature. Its gnarled, hairless
+        body and piercing crimson eyes seemed to defy nature itself. What did your group do to survive the Chupacabra?
+      </h1>
+    </div>
+    <div class="fade-in18">
+    <div class="game-container">
+        <h1 style="position: relative; top: 70px;">what did you do?</h1>
+        <form id="game-form">
+            <div class="options horizontal-options">
+              <label>
+                <input type="radio" name="option" value="scareaway">
+                <img src="images\scareaway.webp" alt="scareaway">
+                <p>scare it away</p>
+              </label>
+              <label>
+                <input type="radio" name="option" value="fightit">
+                <img src="images\fisticuffs.jpg" alt="fightit">
+                <p>fisticuffs</p>
+              </label>
+              <label>
+                <input type="radio" name="option" value="walkedaway">
+                <img src="images\walkaway.avif" alt="walkedaway">
+                <p>walked away</p>
+              </label>
+            </div>
+            <input type="button" value="Submit" id="submit-button" onclick="submitForm()">
+          </form>
+      </div>
+    </div>
+      
+    
+    <div class="footer"></div>
+  </body>
+</html>
